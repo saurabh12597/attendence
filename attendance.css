@@ -1,0 +1,49 @@
+a{
+ font-weight: bold;
+ color: #424242;
+ font-size:20px;
+}
+#main_h h1{
+	color: WHITE;
+	margin-left: 350px;
+	font-family: helvetica; 
+    font-weight: bold;
+}
+
+#result{
+color: white;
+background-color:#424242; 
+/*margin-left: 350px;*/
+
+
+}
+
+ h3{
+ 	font-size: 40px;
+	color: grey;
+	font-family: helvetica;
+}
+div{
+	background-color: #4080B8;
+	font-size: 30px;
+}
+
+label{
+	font-family: helvetica;
+	font-size: 30px;
+	color: gray;
+}
+{
+	background-color: 
+}
+button{
+	font-size: 30px;
+	font-weight: bold;
+	color: #424242;
+}
+{
+	background-color: 
+}
+#main_2 {
+
+}

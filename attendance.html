@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="attendance.css">  
+<title> 
+    Attendance
+  </title>
+</head>
+<body>
+	<a href="attendance.html"> Home <a/> | <a href="sheet.html">Attendance sheet<a/> 
+  <div id="main_h">
+   <h1 >Attendance Calculator</h1></div>
+  <center>
+  <h3>
+    You can calculate your attendance %
+  </h3>
+  </center>
+  <center>
+  <label>
+    Total no of lectures happened <input type="number" id='lec'><br><br>
+     Total no classes you attend <input type="number" id="attend"><br><br>
+     	Enter how much attendance you want to maintain <Input type="number" id='percen'> %
+  </label>
+  </center>
+  <br>
+  <center>
+  	<BUTTON onclick="hello()">Calculate</BUTTON>
+  </center>
+  <h4>no of lectures you have to do per day is.....</h4>
+  <div id="result" >
+  	
+  </div>
+</body>
+
+<script type="text/javascript">
+	var lec=document.getElementById('lec')
+	var attend=document.getElementById('attend')
+	var percen=document.getElementById('percen')
+	var result=document.getElementById('result')
+
+	function hello(argument) {
+		var a=parseInt(lec.value)
+		var b=parseInt(attend.value)
+		var c=parseInt(percen.value)
+	    var k=(264*(c/100))
+	    var x=(k-b)
+	    var z=(264-a)/6
+
+	 result.innerHTML=(x/z)
+	
+	}
+
+
+</script>
+
+
+
+</html>
